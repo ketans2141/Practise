@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Ketan's Directory App</h1>
+    </header>
+    <main class="mainContainer">
+      <div class="tabsContainer">
+        <button class="btn addNewPersonBtn">Add New Person</button>
+        <button class="btn retrieveInfoBtn">Retrieve Information</button>
+      </div>
+      <div class="addNewPersonSection">
+        <span class="addNewPersonText">Add New Person</span>
+        <p class="errorMessage"></p>
+        <div>
+          <table class="myTable">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Date of birth</th>
+                <th>Aadhar Number</th>
+                <th>Mobile Number</th>
+                <th>Age</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody class="tbody"></tbody>
+            <tfoot>
+              <tr>
+                <td><input type="text" class="inputName"></td>
+                <td><input type="date" class="inputBirthDate"></td>
+                <td><input type="number" class="inputAadhar"></td>
+                <td><input type="number" class="inputMobileNum"></td>
+                <td class="Age"></td>
+                <td></td>
+              </tr>
+            </tfoot>
+          </table>
+          <div class="addRowBtnContainer">
+            <button class="btn addRowBtn">Add Row</button>
+          </div>
+        </div>
+      </div>
+      <div class="retrieveInfoSection">
+        <span class="retrieveInfoText">Retrieve Information</span>
+        <div class="inputFindContainer">
+            <input type="number" class="aadharCheckInput">
+            <button class="btn findBtn">Find</button>
+        </div>
+        <div class="displayUserDetails">
+            
+        </div>
+        <h1 class="noData"> </h1>
+
+      </div>
+    </main>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

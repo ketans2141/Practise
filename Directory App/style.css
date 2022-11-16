@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(85, 85, 205);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.mainContainer{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.tabsContainer{
+    margin: 30px 0;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.addNewPersonSection{
+    padding: 10px 0;
+    border: 1px solid rgb(85, 85, 205);
+    width: 1400px;
+    height: 600px;
+    position: relative;
+}
+
+.addNewPersonBtn{
+    background-color: rgb(85, 85, 205) ;
+    color: white;
+    padding: 10px;
+    width: 200px;
+}
+
+
+
+.addNewPersonText{
+    font-size: 23px;
+    padding: 10px;
+    border: 1px solid  rgb(85, 85, 205);
+}
+
+.errorMessage{
+    color: red;
+    text-align: center;
+    font-size: 18px;
+}
+
+.myTable{
+    margin: 50px auto;
+    text-align: center;
+}
+
+table,th,td{
+   
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    width: 200px;
+    padding: 12px;
+    font-size: 18px;
+    background-color: rgb(85, 85, 205) ;
+    color: white;
+}
+
+td{
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+.saveBtn,.delBtn{
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    outline: none;
+    text-decoration: underline;
+    color: rgb(85, 85, 205) ;
+    font-weight: 600;
+}
+.save{
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    outline: none;
+    text-decoration: underline;
+    color: rgb(85, 85, 205) ;
+    font-weight: 600;
+}
+
+.addRowBtnContainer{
+    width: 1400px;
+    text-align: right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.addRowBtn{
+    font-size: 23px;
+    background-color: rgb(85, 85, 205);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 150px;
+}
+
+
+/* -----------------------retrieve block---------------- */
+.retrieveInfoSection{
+    display: none;
+    border: 1px solid rgb(85, 85, 205) ;
+    width: 1400px;
+    height: 600px;
+    padding: 10px 0;
+
+}
+
+.retrieveInfoBtn{
+    background-color: rgb(85, 85, 205) ;
+    color: white;
+    padding: 10px;
+    width: 200px;
+}
+
+.retrieveInfoText{
+    font-size: 23px;
+    padding: 10px;
+    border: 1px solid  rgb(85, 85, 205);
+}
+
+.inputFindContainer{
+    margin: 50px;
+}
+
+.aadharCheckInput{
+    font-size: 23px;
+    padding: 10px;
+}
+
+.findBtn{
+    font-size: 23px;
+    width: 150px;
+    background-color:rgb(85, 85, 205) ;
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.userDetails{
+    border: 1px solid rgb(85, 85, 205);
+    padding: 20px;
+    font-size: 23px;
+    width: 400px;
+    line-height: 1.8;
+    margin: 50px;
+}
